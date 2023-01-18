@@ -18,14 +18,14 @@
             <h1 id="title">ETCH A SKETCH</h1>
             <div id="inner-container">
                 <div id="button-container">
-                    <input type="color">
+                    <input type="color" value="#262626">
                     <button class="btn" type="button">RANDOM</button>
                     <button class="btn" type="button">CLEAR</button>
                     <button class="btn" type="button">ERASER</button>
                     <input class="btn" type="range" name="grid-size" value="50" min="10" max="100">
-                    <label for="grid-size">10x10</label>
+                    <label for="grid-size" draggable="false">50x50</label>
                 </div>
-                <div id="grid-container">
+                <div id="grid-container" draggable="false">
                 </div>
             </div>
         </div>
